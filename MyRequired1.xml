@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="MyRequiredPack.AnimalsClass1">
+		<methods>
+			<include name="dg"></include>
+			<include name="tgr"></include>
+			<include name="ct"></include>
+			<include name="dr"></include>
+		</methods>
+      </class>
+
+
+      <class name="MyRequiredPack.AnimalsClass2">
+		<methods>
+			<include name="pnd"></include>
+			<include name="grf"></include>
+			<include name="lpd"></include>
+	    </methods>
+      </class>
+
+
+      <class name="MyRequiredPack.AnimalsClass3">
+		<methods>
+			<include name="cw"></include>
+			<include name="hn"></include>
+			<include name="egl"></include>
+			<include name="rt"></include>
+			<include name="slt"></include>
+		</methods>
+	  </class>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
